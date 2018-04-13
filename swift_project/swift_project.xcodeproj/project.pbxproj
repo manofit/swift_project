@@ -30,6 +30,17 @@
 		E18BCB1D207E0A6900D83270 /* InvestCommitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB1C207E0A6900D83270 /* InvestCommitView.swift */; };
 		E18BCB23207F424900D83270 /* CunguanWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB22207F424900D83270 /* CunguanWebViewController.swift */; };
 		E18BCB25207F52B000D83270 /* GJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB24207F52B000D83270 /* GJProgressView.swift */; };
+		E18BCB27208052EA00D83270 /* PersonInvestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB26208052EA00D83270 /* PersonInvestDetailViewController.swift */; };
+		E18BCB29208052FD00D83270 /* CompanyInvestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB28208052FD00D83270 /* CompanyInvestDetailViewController.swift */; };
+		E18BCB2B2080530C00D83270 /* InvestHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB2A2080530C00D83270 /* InvestHistoryViewController.swift */; };
+		E18BCB31208055C200D83270 /* InvestDetailContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB30208055C200D83270 /* InvestDetailContainerViewController.swift */; };
+		E18BCB3320806B9D00D83270 /* PersonInvestDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3220806B9D00D83270 /* PersonInvestDetailCell.swift */; };
+		E18BCB3520806BB000D83270 /* CompanyInvestDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3420806BB000D83270 /* CompanyInvestDetailCell.swift */; };
+		E18BCB3720806BCD00D83270 /* PersonInvestDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3620806BCD00D83270 /* PersonInvestDetailModel.swift */; };
+		E18BCB3920806BDE00D83270 /* CompanyInvestDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3820806BDE00D83270 /* CompanyInvestDetailModel.swift */; };
+		E18BCB3B208092FA00D83270 /* GJPictureShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3A208092FA00D83270 /* GJPictureShow.swift */; };
+		E18BCB3D2080A30900D83270 /* InvestHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3C2080A30900D83270 /* InvestHistoryModel.swift */; };
+		E18BCB3F2080A32B00D83270 /* InvestHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3E2080A32B00D83270 /* InvestHistoryCell.swift */; };
 		E1FDCEB120721034006B0CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB020721034006B0CB1 /* AppDelegate.swift */; };
 		E1FDCEB320721034006B0CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB220721034006B0CB1 /* ViewController.swift */; };
 		E1FDCEB620721034006B0CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FDCEB420721034006B0CB1 /* Main.storyboard */; };
@@ -101,6 +112,17 @@
 		E18BCB1C207E0A6900D83270 /* InvestCommitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestCommitView.swift; sourceTree = "<group>"; };
 		E18BCB22207F424900D83270 /* CunguanWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CunguanWebViewController.swift; sourceTree = "<group>"; };
 		E18BCB24207F52B000D83270 /* GJProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJProgressView.swift; sourceTree = "<group>"; };
+		E18BCB26208052EA00D83270 /* PersonInvestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInvestDetailViewController.swift; sourceTree = "<group>"; };
+		E18BCB28208052FD00D83270 /* CompanyInvestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInvestDetailViewController.swift; sourceTree = "<group>"; };
+		E18BCB2A2080530C00D83270 /* InvestHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestHistoryViewController.swift; sourceTree = "<group>"; };
+		E18BCB30208055C200D83270 /* InvestDetailContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestDetailContainerViewController.swift; sourceTree = "<group>"; };
+		E18BCB3220806B9D00D83270 /* PersonInvestDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInvestDetailCell.swift; sourceTree = "<group>"; };
+		E18BCB3420806BB000D83270 /* CompanyInvestDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInvestDetailCell.swift; sourceTree = "<group>"; };
+		E18BCB3620806BCD00D83270 /* PersonInvestDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInvestDetailModel.swift; sourceTree = "<group>"; };
+		E18BCB3820806BDE00D83270 /* CompanyInvestDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInvestDetailModel.swift; sourceTree = "<group>"; };
+		E18BCB3A208092FA00D83270 /* GJPictureShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJPictureShow.swift; sourceTree = "<group>"; };
+		E18BCB3C2080A30900D83270 /* InvestHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestHistoryModel.swift; sourceTree = "<group>"; };
+		E18BCB3E2080A32B00D83270 /* InvestHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestHistoryCell.swift; sourceTree = "<group>"; };
 		E1FDCEAD20721034006B0CB1 /* swift_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FDCEB020721034006B0CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1FDCEB220721034006B0CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +211,7 @@
 				E18BCB0D207DC6A100D83270 /* GJRefreshHeader.swift */,
 				E18BCB0F207DC81A00D83270 /* GJRefreshFooter.swift */,
 				E18BCB24207F52B000D83270 /* GJProgressView.swift */,
+				E18BCB3A208092FA00D83270 /* GJPictureShow.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -375,6 +398,9 @@
 			isa = PBXGroup;
 			children = (
 				E18BCB13207DD88D00D83270 /* InvestDetailModel.swift */,
+				E18BCB3620806BCD00D83270 /* PersonInvestDetailModel.swift */,
+				E18BCB3820806BDE00D83270 /* CompanyInvestDetailModel.swift */,
+				E18BCB3C2080A30900D83270 /* InvestHistoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -386,6 +412,10 @@
 				E1006BD8207DA09200B5D151 /* InvestListViewController.swift */,
 				E18BCB11207DD15700D83270 /* InvestDetailViewController.swift */,
 				E18BCB22207F424900D83270 /* CunguanWebViewController.swift */,
+				E18BCB30208055C200D83270 /* InvestDetailContainerViewController.swift */,
+				E18BCB26208052EA00D83270 /* PersonInvestDetailViewController.swift */,
+				E18BCB28208052FD00D83270 /* CompanyInvestDetailViewController.swift */,
+				E18BCB2A2080530C00D83270 /* InvestHistoryViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -396,6 +426,9 @@
 				E1006BDA207DB8C800B5D151 /* InvestListCell.swift */,
 				E18BCB15207DE05400D83270 /* InvestDetailCell.swift */,
 				E18BCB1C207E0A6900D83270 /* InvestCommitView.swift */,
+				E18BCB3220806B9D00D83270 /* PersonInvestDetailCell.swift */,
+				E18BCB3420806BB000D83270 /* CompanyInvestDetailCell.swift */,
+				E18BCB3E2080A32B00D83270 /* InvestHistoryCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -650,8 +683,10 @@
 				E134B52B207B4D5E0082323C /* ForgetPasswordViewController.swift in Sources */,
 				E1FDCF1D20749384006B0CB1 /* LoginViewController.swift in Sources */,
 				E1FDCEEB20721880006B0CB1 /* VariableDefineFile.swift in Sources */,
+				E18BCB27208052EA00D83270 /* PersonInvestDetailViewController.swift in Sources */,
 				E1FDCEFC2072231B006B0CB1 /* InvestListCellModel.swift in Sources */,
 				E18BCB12207DD15700D83270 /* InvestDetailViewController.swift in Sources */,
+				E18BCB31208055C200D83270 /* InvestDetailContainerViewController.swift in Sources */,
 				E1FDCEF120722285006B0CB1 /* GJNetWorkTool.swift in Sources */,
 				E1FDCF1F2074AB3A006B0CB1 /* RegisterViewController.swift in Sources */,
 				E1FDCF002072259A006B0CB1 /* GJUtil.swift in Sources */,
@@ -661,28 +696,37 @@
 				E1FDCF0720734058006B0CB1 /* GJNavigationController.swift in Sources */,
 				E1FDCEE920721790006B0CB1 /* NetWorkFile.swift in Sources */,
 				E1FDCEB320721034006B0CB1 /* ViewController.swift in Sources */,
+				E18BCB3720806BCD00D83270 /* PersonInvestDetailModel.swift in Sources */,
+				E18BCB3520806BB000D83270 /* CompanyInvestDetailCell.swift in Sources */,
 				E1006BD0207CAF9C00B5D151 /* GJBaseWebViewController.swift in Sources */,
 				E1006BDB207DB8C800B5D151 /* InvestListCell.swift in Sources */,
+				E18BCB3320806B9D00D83270 /* PersonInvestDetailCell.swift in Sources */,
 				E134B529207B491C0082323C /* RegisterSuccessViewController.swift in Sources */,
+				E18BCB29208052FD00D83270 /* CompanyInvestDetailViewController.swift in Sources */,
 				E1FDCF0B2073414F006B0CB1 /* MainViewController.swift in Sources */,
 				E134B525207B425B0082323C /* UserAgreementViewController.swift in Sources */,
 				E1006BCC207C7F3E00B5D151 /* AnnouceModel.swift in Sources */,
 				E1FDCF0220722C05006B0CB1 /* GJNetworkReachability.swift in Sources */,
 				E1FDCF13207341CC006B0CB1 /* InvestViewController.swift in Sources */,
+				E18BCB3D2080A30900D83270 /* InvestHistoryModel.swift in Sources */,
+				E18BCB3B208092FA00D83270 /* GJPictureShow.swift in Sources */,
 				E1FDCEEF2072226F006B0CB1 /* GJNetwork.swift in Sources */,
 				E18BCB23207F424900D83270 /* CunguanWebViewController.swift in Sources */,
 				E1006BD2207CB0D000B5D151 /* BannarDetailViewController.swift in Sources */,
 				E18BCB10207DC81A00D83270 /* GJRefreshFooter.swift in Sources */,
 				E1006BD4207CB16000B5D151 /* AnnounceDetailController.swift in Sources */,
 				E1FDCF15207341DA006B0CB1 /* MineViewController.swift in Sources */,
+				E18BCB3920806BDE00D83270 /* CompanyInvestDetailModel.swift in Sources */,
 				E134B52D207B673D0082323C /* ResetPasswordViewController.swift in Sources */,
 				E1FDCF092073410B006B0CB1 /* GJBaseViewController.swift in Sources */,
 				E18BCB0E207DC6A100D83270 /* GJRefreshHeader.swift in Sources */,
 				E18BCB25207F52B000D83270 /* GJProgressView.swift in Sources */,
 				E1FDCF0520732A9D006B0CB1 /* GJTabbarController.swift in Sources */,
 				E1FDCEFE20722347006B0CB1 /* MainInvestListCell.swift in Sources */,
+				E18BCB3F2080A32B00D83270 /* InvestHistoryCell.swift in Sources */,
 				E1FDCEB120721034006B0CB1 /* AppDelegate.swift in Sources */,
 				E1FDCF1A20734795006B0CB1 /* UIBarButtonItem+Extension.swift in Sources */,
+				E18BCB2B2080530C00D83270 /* InvestHistoryViewController.swift in Sources */,
 				E1006BCA207C7E1A00B5D151 /* BannarModel.swift in Sources */,
 				E1006BD7207CB52900B5D151 /* GJSegment.swift in Sources */,
 				E18BCB14207DD88D00D83270 /* InvestDetailModel.swift in Sources */,

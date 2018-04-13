@@ -239,4 +239,35 @@ class GJNetWorkTool: NSObject {
             }catch{}
         }
     }
+    
+    //上划后出借详情
+    func getInvestDetailAfterUpSwipeWith(UUID uuid:String, TypeID typeId:String, Handler comp:@escaping((result) -> Void)) {
+        localPara["uuid"] = uuid
+        localPara["borrowType"] = typeId
+        GJNetwork.requestWith(Method: .post, URL: HOST + INVEST_DETAIL_DEATIL, Parameter: localPara, Token: nil) { (res) in
+            do {
+                let json = try JSON(data:res.data!)
+                if JSON.null != json {
+                    let aResult = self.handleResponse(JSON: json)
+                    comp(aResult)
+                }
+            }catch{}
+        }
+    }
+    
+    //出借记录
+    func getInvestHistoryWith(UUID uuid:String, NID nid:String, Page page:String, Handler comp:@escaping((result) -> Void)) {
+        localPara["page"] = page
+        localPara["pagesize"] = 20
+        localPara["id"] = nid
+        GJNetwork.requestWith(Method: .post, URL: HOST + INVEST_HISTORY, Parameter: localPara, Token: nil) { (res) in
+            do {
+                let json = try JSON(data:res.data!)
+                if JSON.null != json {
+                    let aResult = self.handleResponse(JSON: json)
+                    comp(aResult)
+                }
+            }catch{}
+        }
+    }
 }

@@ -10,5 +10,5 @@ target 'swift_project' do
     pod 'TYAlertController'
     pod 'SDCycleScrollView'
     pod 'MJRefresh'
-
+    pod 'SDWebImage'
 end

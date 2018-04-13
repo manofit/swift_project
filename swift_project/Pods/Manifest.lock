@@ -14,6 +14,7 @@ DEPENDENCIES:
   - Alamofire
   - MJRefresh
   - SDCycleScrollView
+  - SDWebImage
   - SVProgressHUD
   - SwiftyJSON
   - TYAlertController
@@ -27,6 +28,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
   TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
 
-PODFILE CHECKSUM: 5efd8b62c5952e28f8487ec7164c828c9eb96925
+PODFILE CHECKSUM: 981ae8e343307a8be34c29ae8958325dc2d6030f
 
 COCOAPODS: 1.4.0

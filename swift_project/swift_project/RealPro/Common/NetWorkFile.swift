@@ -31,3 +31,5 @@ let GET_INVEST_NO = ""//获取出借订单号
 let INVEST_URL = ""//获取订单号后跳转到cunguan页面
 let CHECK_PWD = ""//检查定向标密码是否正确
 let INVEST_DETAIL = ""//出借详情
+let INVEST_DETAIL_DEATIL = ""//上划后出现的详情
+let INVEST_HISTORY = ""//出借记录

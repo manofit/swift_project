@@ -252,5 +252,38 @@ class InvestDetailViewController: GJBaseViewController, UITableViewDelegate, UIT
         alert.show(in: self, preferredStyle: .alert)
     }
     
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView.contentSize.height - scrollView.contentOffset.y <= scrollView.frame.size.height {
+            if isAlreadySwipeInBottom {
+                isSecondAlreadySwipeInBottom = true
+            }
+            
+            isAlreadySwipeInBottom = true
+        }
+    }
+    
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        let point = scrollView.panGestureRecognizer.translation(in: scrollView.superview)
+        if point.y > 0 {
+            //向上滑
+            isAlreadySwipeInBottom = false
+            isSecondAlreadySwipeInBottom = false
+        }else if point.y < 0 {
+            if isAlreadySwipeInBottom && isSecondAlreadySwipeInBottom {
+                let vc = InvestDetailContainerViewController()
+                vc.pro_title = pro_title
+                vc.nid = nID
+                vc.uuid = uuID
+                vc.productType = investDetailModel.product_category
+                if isPerson {
+                    vc.isPerson = true
+                }else{
+                    vc.isPerson = false
+                }
+                self.present(vc, animated: true, completion: nil)
+            }
+        }
+    }
+    
 
 }
