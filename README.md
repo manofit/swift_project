@@ -1,0 +1,2 @@
+# swift_project
+swift项目，利用Alamofire封装了网络请求类，自定义基于MJRefresh的gif动画刷新，自定义UISegment和动画ProgressView等UI控件。
