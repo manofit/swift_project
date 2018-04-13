@@ -1,0 +1,6 @@
+framework module TYAlertController {
+  umbrella header "TYAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

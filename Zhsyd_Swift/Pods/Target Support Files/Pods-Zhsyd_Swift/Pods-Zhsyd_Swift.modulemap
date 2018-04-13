@@ -1,0 +1,6 @@
+framework module Pods_Zhsyd_Swift {
+  umbrella header "Pods-Zhsyd_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
