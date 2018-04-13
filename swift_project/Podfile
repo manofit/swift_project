@@ -1,0 +1,14 @@
+project 'swift_project.xcodeproj'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'swift_project' do
+
+    pod 'Alamofire'
+    pod 'SVProgressHUD'
+    pod 'SwiftyJSON'
+    pod 'TYAlertController'
+    pod 'SDCycleScrollView'
+    pod 'MJRefresh'
+
+end
