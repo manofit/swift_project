@@ -52,6 +52,7 @@
 		E1D37C50208445D6008CD238 /* AddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4F208445D6008CD238 /* AddMoneyViewController.swift */; };
 		E1D37C52208445E2008CD238 /* DeleteMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C51208445E2008CD238 /* DeleteMoneyViewController.swift */; };
 		E1D37C5420844612008CD238 /* MyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C5320844612008CD238 /* MyTicketViewController.swift */; };
+		E1D37C5620845DE8008CD238 /* MineInvestHistoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C5520845DE8008CD238 /* MineInvestHistoryListViewController.swift */; };
 		E1FDCEB120721034006B0CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB020721034006B0CB1 /* AppDelegate.swift */; };
 		E1FDCEB320721034006B0CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB220721034006B0CB1 /* ViewController.swift */; };
 		E1FDCEB620721034006B0CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FDCEB420721034006B0CB1 /* Main.storyboard */; };
@@ -145,6 +146,7 @@
 		E1D37C4F208445D6008CD238 /* AddMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyViewController.swift; sourceTree = "<group>"; };
 		E1D37C51208445E2008CD238 /* DeleteMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMoneyViewController.swift; sourceTree = "<group>"; };
 		E1D37C5320844612008CD238 /* MyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketViewController.swift; sourceTree = "<group>"; };
+		E1D37C5520845DE8008CD238 /* MineInvestHistoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInvestHistoryListViewController.swift; sourceTree = "<group>"; };
 		E1FDCEAD20721034006B0CB1 /* swift_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FDCEB020721034006B0CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1FDCEB220721034006B0CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -461,6 +463,7 @@
 			children = (
 				E1FDCF14207341DA006B0CB1 /* MineViewController.swift */,
 				E1D37C4520844584008CD238 /* MineInvestHistoryViewController.swift */,
+				E1D37C5520845DE8008CD238 /* MineInvestHistoryListViewController.swift */,
 				E1D37C4720844594008CD238 /* MoneyHistoryViewController.swift */,
 				E1D37C49208445A3008CD238 /* InvatationViewController.swift */,
 				E1D37C4B208445B2008CD238 /* MessageViewController.swift */,
@@ -752,6 +755,7 @@
 				E18BCB23207F424900D83270 /* CunguanWebViewController.swift in Sources */,
 				E1D37C422084353E008CD238 /* MineViewCell.swift in Sources */,
 				E1006BD2207CB0D000B5D151 /* BannarDetailViewController.swift in Sources */,
+				E1D37C5620845DE8008CD238 /* MineInvestHistoryListViewController.swift in Sources */,
 				E1D37C4A208445A3008CD238 /* InvatationViewController.swift in Sources */,
 				E18BCB10207DC81A00D83270 /* GJRefreshFooter.swift in Sources */,
 				E1D37C402084351C008CD238 /* MineViewModel.swift in Sources */,
