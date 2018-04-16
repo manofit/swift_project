@@ -28,16 +28,7 @@ class InvestDetailViewController: GJBaseViewController, UITableViewDelegate, UIT
     var blackView:UIView?
     var investView:InvestCommitView?
     
-    lazy var avoidLabel:UILabel = {
-        let label = GJUtil.createLabelWith(Text: "企业用户请在电脑端开通cunguan账户", Frame: CGRect(x:30, y:SCREEN_HEIGHT/2-80, width:SCREEN_WIDTH-60, height:30), TextColor: UIColor.white, Font: 14, TextAligtment: .center)
-        label.backgroundColor = UIColor.black.withAlphaComponent(0.7)
-        label.layer.cornerRadius = 10
-        label.layer.masksToBounds = true
-        label.isHidden = true
-        self.view.addSubview(label)
-        
-        return label
-    }()
+    var avoidLabel:GJAlertLabel?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -210,11 +201,8 @@ class InvestDetailViewController: GJBaseViewController, UITableViewDelegate, UIT
             }))
             alert.add(TYAlertAction(title: "确定", style: .default, handler: { (action) in
                 if self.investDetailModel.userNature != 1 {
-                    self.avoidLabel.isHidden = false
-                    
-                    DispatchQueue.main.asyncAfter(deadline: DispatchTime(uptimeNanoseconds: 2), execute: {
-                        self.avoidLabel.isHidden = true
-                    })
+                    self.avoidLabel = GJAlertLabel.init(Frame: CGRect(x:30 ,y:SCREEN_HEIGHT/2-80, width:SCREEN_WIDTH-60, height:30), Text: "企业用户请在电脑端开通存管账户", DismissTime: 2)
+                    self.view.addSubview(self.avoidLabel!)
                 }else{
                     GJNetWorkTool.tool.getCunguanUrlWith(UserType: "1", Handler: { (result) in
                         let vc = CunguanWebViewController()

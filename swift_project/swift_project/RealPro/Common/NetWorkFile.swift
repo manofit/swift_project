@@ -33,3 +33,4 @@ let CHECK_PWD = ""//检查定向标密码是否正确
 let INVEST_DETAIL = ""//出借详情
 let INVEST_DETAIL_DEATIL = ""//上划后出现的详情
 let INVEST_HISTORY = ""//出借记录
+let MINE_CENTER_API = ""//个人中心

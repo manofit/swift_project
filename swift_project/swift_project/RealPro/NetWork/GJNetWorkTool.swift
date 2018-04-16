@@ -270,4 +270,17 @@ class GJNetWorkTool: NSObject {
             }catch{}
         }
     }
+    
+    //我，个人中心
+    func getMineData(Handler comp:@escaping((result) -> Void)) {
+        GJNetwork.requestWith(Method: .post, URL: HOST + MINE_CENTER_API, Parameter: localPara, Token: nil) { (res) in
+            do {
+                let json = try JSON(data:res.data!)
+                if JSON.null != json {
+                    let aResult = self.handleResponse(JSON: json)
+                    comp(aResult)
+                }
+            }catch{}
+        }
+    }
 }

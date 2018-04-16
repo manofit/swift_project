@@ -41,6 +41,17 @@
 		E18BCB3B208092FA00D83270 /* GJPictureShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3A208092FA00D83270 /* GJPictureShow.swift */; };
 		E18BCB3D2080A30900D83270 /* InvestHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3C2080A30900D83270 /* InvestHistoryModel.swift */; };
 		E18BCB3F2080A32B00D83270 /* InvestHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18BCB3E2080A32B00D83270 /* InvestHistoryCell.swift */; };
+		E1D37C3E208432E7008CD238 /* GJAlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C3D208432E7008CD238 /* GJAlertLabel.swift */; };
+		E1D37C402084351C008CD238 /* MineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C3F2084351C008CD238 /* MineViewModel.swift */; };
+		E1D37C422084353E008CD238 /* MineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C412084353E008CD238 /* MineViewCell.swift */; };
+		E1D37C4620844584008CD238 /* MineInvestHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4520844584008CD238 /* MineInvestHistoryViewController.swift */; };
+		E1D37C4820844594008CD238 /* MoneyHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4720844594008CD238 /* MoneyHistoryViewController.swift */; };
+		E1D37C4A208445A3008CD238 /* InvatationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C49208445A3008CD238 /* InvatationViewController.swift */; };
+		E1D37C4C208445B2008CD238 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4B208445B2008CD238 /* MessageViewController.swift */; };
+		E1D37C4E208445C3008CD238 /* SafetyCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4D208445C3008CD238 /* SafetyCenterViewController.swift */; };
+		E1D37C50208445D6008CD238 /* AddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C4F208445D6008CD238 /* AddMoneyViewController.swift */; };
+		E1D37C52208445E2008CD238 /* DeleteMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C51208445E2008CD238 /* DeleteMoneyViewController.swift */; };
+		E1D37C5420844612008CD238 /* MyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D37C5320844612008CD238 /* MyTicketViewController.swift */; };
 		E1FDCEB120721034006B0CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB020721034006B0CB1 /* AppDelegate.swift */; };
 		E1FDCEB320721034006B0CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDCEB220721034006B0CB1 /* ViewController.swift */; };
 		E1FDCEB620721034006B0CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FDCEB420721034006B0CB1 /* Main.storyboard */; };
@@ -123,6 +134,17 @@
 		E18BCB3A208092FA00D83270 /* GJPictureShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJPictureShow.swift; sourceTree = "<group>"; };
 		E18BCB3C2080A30900D83270 /* InvestHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestHistoryModel.swift; sourceTree = "<group>"; };
 		E18BCB3E2080A32B00D83270 /* InvestHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestHistoryCell.swift; sourceTree = "<group>"; };
+		E1D37C3D208432E7008CD238 /* GJAlertLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJAlertLabel.swift; sourceTree = "<group>"; };
+		E1D37C3F2084351C008CD238 /* MineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewModel.swift; sourceTree = "<group>"; };
+		E1D37C412084353E008CD238 /* MineViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewCell.swift; sourceTree = "<group>"; };
+		E1D37C4520844584008CD238 /* MineInvestHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineInvestHistoryViewController.swift; sourceTree = "<group>"; };
+		E1D37C4720844594008CD238 /* MoneyHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyHistoryViewController.swift; sourceTree = "<group>"; };
+		E1D37C49208445A3008CD238 /* InvatationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvatationViewController.swift; sourceTree = "<group>"; };
+		E1D37C4B208445B2008CD238 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		E1D37C4D208445C3008CD238 /* SafetyCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyCenterViewController.swift; sourceTree = "<group>"; };
+		E1D37C4F208445D6008CD238 /* AddMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoneyViewController.swift; sourceTree = "<group>"; };
+		E1D37C51208445E2008CD238 /* DeleteMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteMoneyViewController.swift; sourceTree = "<group>"; };
+		E1D37C5320844612008CD238 /* MyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketViewController.swift; sourceTree = "<group>"; };
 		E1FDCEAD20721034006B0CB1 /* swift_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1FDCEB020721034006B0CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1FDCEB220721034006B0CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -212,6 +234,7 @@
 				E18BCB0F207DC81A00D83270 /* GJRefreshFooter.swift */,
 				E18BCB24207F52B000D83270 /* GJProgressView.swift */,
 				E18BCB3A208092FA00D83270 /* GJPictureShow.swift */,
+				E1D37C3D208432E7008CD238 /* GJAlertLabel.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -437,6 +460,14 @@
 			isa = PBXGroup;
 			children = (
 				E1FDCF14207341DA006B0CB1 /* MineViewController.swift */,
+				E1D37C4520844584008CD238 /* MineInvestHistoryViewController.swift */,
+				E1D37C4720844594008CD238 /* MoneyHistoryViewController.swift */,
+				E1D37C49208445A3008CD238 /* InvatationViewController.swift */,
+				E1D37C4B208445B2008CD238 /* MessageViewController.swift */,
+				E1D37C4D208445C3008CD238 /* SafetyCenterViewController.swift */,
+				E1D37C4F208445D6008CD238 /* AddMoneyViewController.swift */,
+				E1D37C51208445E2008CD238 /* DeleteMoneyViewController.swift */,
+				E1D37C5320844612008CD238 /* MyTicketViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -444,6 +475,7 @@
 		E1FDCF10207341B4006B0CB1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1D37C3F2084351C008CD238 /* MineViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -451,6 +483,7 @@
 		E1FDCF11207341B5006B0CB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1D37C412084353E008CD238 /* MineViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -680,10 +713,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D37C4E208445C3008CD238 /* SafetyCenterViewController.swift in Sources */,
 				E134B52B207B4D5E0082323C /* ForgetPasswordViewController.swift in Sources */,
 				E1FDCF1D20749384006B0CB1 /* LoginViewController.swift in Sources */,
 				E1FDCEEB20721880006B0CB1 /* VariableDefineFile.swift in Sources */,
+				E1D37C4620844584008CD238 /* MineInvestHistoryViewController.swift in Sources */,
 				E18BCB27208052EA00D83270 /* PersonInvestDetailViewController.swift in Sources */,
+				E1D37C5420844612008CD238 /* MyTicketViewController.swift in Sources */,
 				E1FDCEFC2072231B006B0CB1 /* InvestListCellModel.swift in Sources */,
 				E18BCB12207DD15700D83270 /* InvestDetailViewController.swift in Sources */,
 				E18BCB31208055C200D83270 /* InvestDetailContainerViewController.swift in Sources */,
@@ -705,15 +741,20 @@
 				E18BCB29208052FD00D83270 /* CompanyInvestDetailViewController.swift in Sources */,
 				E1FDCF0B2073414F006B0CB1 /* MainViewController.swift in Sources */,
 				E134B525207B425B0082323C /* UserAgreementViewController.swift in Sources */,
+				E1D37C3E208432E7008CD238 /* GJAlertLabel.swift in Sources */,
 				E1006BCC207C7F3E00B5D151 /* AnnouceModel.swift in Sources */,
 				E1FDCF0220722C05006B0CB1 /* GJNetworkReachability.swift in Sources */,
+				E1D37C4820844594008CD238 /* MoneyHistoryViewController.swift in Sources */,
 				E1FDCF13207341CC006B0CB1 /* InvestViewController.swift in Sources */,
 				E18BCB3D2080A30900D83270 /* InvestHistoryModel.swift in Sources */,
 				E18BCB3B208092FA00D83270 /* GJPictureShow.swift in Sources */,
 				E1FDCEEF2072226F006B0CB1 /* GJNetwork.swift in Sources */,
 				E18BCB23207F424900D83270 /* CunguanWebViewController.swift in Sources */,
+				E1D37C422084353E008CD238 /* MineViewCell.swift in Sources */,
 				E1006BD2207CB0D000B5D151 /* BannarDetailViewController.swift in Sources */,
+				E1D37C4A208445A3008CD238 /* InvatationViewController.swift in Sources */,
 				E18BCB10207DC81A00D83270 /* GJRefreshFooter.swift in Sources */,
+				E1D37C402084351C008CD238 /* MineViewModel.swift in Sources */,
 				E1006BD4207CB16000B5D151 /* AnnounceDetailController.swift in Sources */,
 				E1FDCF15207341DA006B0CB1 /* MineViewController.swift in Sources */,
 				E18BCB3920806BDE00D83270 /* CompanyInvestDetailModel.swift in Sources */,
@@ -721,12 +762,15 @@
 				E1FDCF092073410B006B0CB1 /* GJBaseViewController.swift in Sources */,
 				E18BCB0E207DC6A100D83270 /* GJRefreshHeader.swift in Sources */,
 				E18BCB25207F52B000D83270 /* GJProgressView.swift in Sources */,
+				E1D37C52208445E2008CD238 /* DeleteMoneyViewController.swift in Sources */,
 				E1FDCF0520732A9D006B0CB1 /* GJTabbarController.swift in Sources */,
 				E1FDCEFE20722347006B0CB1 /* MainInvestListCell.swift in Sources */,
 				E18BCB3F2080A32B00D83270 /* InvestHistoryCell.swift in Sources */,
 				E1FDCEB120721034006B0CB1 /* AppDelegate.swift in Sources */,
 				E1FDCF1A20734795006B0CB1 /* UIBarButtonItem+Extension.swift in Sources */,
+				E1D37C4C208445B2008CD238 /* MessageViewController.swift in Sources */,
 				E18BCB2B2080530C00D83270 /* InvestHistoryViewController.swift in Sources */,
+				E1D37C50208445D6008CD238 /* AddMoneyViewController.swift in Sources */,
 				E1006BCA207C7E1A00B5D151 /* BannarModel.swift in Sources */,
 				E1006BD7207CB52900B5D151 /* GJSegment.swift in Sources */,
 				E18BCB14207DD88D00D83270 /* InvestDetailModel.swift in Sources */,
