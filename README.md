@@ -6,13 +6,13 @@
 ## 自定义控件
 *这里面，我自己封装了一些经常用到的控件，如Segment、Refresh、PictureShow、Progress等，可以很方便地调用。*
 * #### GJSegment
-![GJSegment](https://github.com/manofit/swift_project/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/segment.gif)
+![GJSegment](https://github.com/manofit/ScreenPics/blob/master/swfit_pro_pics/segment.gif)
 * #### GJRefresh
-![GJRefresh](https://github.com/manofit/swift_project/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/mj_footer.gif)![GJRefresh](https://github.com/manofit/swift_project/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/mj_header.gif)
+![GJRefresh](https://github.com/manofit/ScreenPics/blob/master/swfit_pro_pics/mj_footer.gif)![GJRefresh](https://github.com/manofit/ScreenPics/blob/master/swfit_pro_pics/mj_header.gif)
 * #### GJPictureShow
-![GJPictureShow](https://github.com/manofit/swift_project/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/pic_show.gif)
+![GJPictureShow](https://github.com/manofit/ScreenPics/blob/master/swfit_pro_pics/pic_show.gif)
 * #### GJProgressView
-![GJProgressView](https://github.com/manofit/swift_project/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE/progress.gif)
+![GJProgressView](https://github.com/manofit/ScreenPics/blob/master/swfit_pro_pics/progress.gif)
 
 *后面还会继续对项目里面的一些其他内容，比如倒计时按钮进行封装。*
 
